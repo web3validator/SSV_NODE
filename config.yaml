@@ -1,6 +1,7 @@
 global:
   # Console output log level
   LogLevel: info
+  LogFileBackups: 28
 
   # Debug logs file path
   LogFilePath: ./data/debug.log
