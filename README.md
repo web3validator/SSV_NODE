@@ -34,8 +34,3 @@ docker-compose up -d
 ```
 docker run --restart unless-stopped --name ssv_dkg -p 3030:3030 -v "$HOME/SSV_NODE":/data -it "bloxstaking/ssv-dkg:latest" /app start-operator --configPath /data/operator.yaml
 ```
-
-### creators
-created in tandem and with ideological support
-https://github.com/goooodnes
-https://github.com/kertio
